@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "My new Decentraland project",
 	"scripts": {
-		"start": "dcl start",
+		"start": "CI=true dcl start -p ${PORT:=8000}",
 		"build": "build-ecs",
 		"watch": "build-ecs --watch",
 		"ecs:install": "npm install --save-dev decentraland-ecs@latest",
@@ -17,12 +17,12 @@
 	},
 	"engines": {
 		"node": ">=14.0.0",
-		"npm": ">=6.0.0",
-		"yarn": "please use npm"
+		"npm": ">=6.0.0"
 	},
 	"dependencies": {
 		"@dcl/ecs-scene-utils": "^1.7.5",
-		"@dcl/ui-scene-utils": "^1.8.3"
+		"@dcl/ui-scene-utils": "^1.8.3",
+		"decentraland": "^3.11.0"
 	},
 	"bundleDependencies": [
 		"@dcl/ecs-scene-utils",
