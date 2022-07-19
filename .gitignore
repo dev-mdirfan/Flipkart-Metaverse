@@ -131,3 +131,4 @@ npm-debug.log
 .DS_Store
 /*.env
 bin
+package-lock.json

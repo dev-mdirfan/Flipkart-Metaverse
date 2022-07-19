@@ -18,7 +18,7 @@ export default {
         {
             name: "HOMEPAGE",
             model: "models/social_media/homepage.glb",
-            link: "https://www.decentraland.org",
+            link: "https://www.flipkart.com/",
             position: new Vector3(1.5, 1.3, -5.35)
         },
         {
