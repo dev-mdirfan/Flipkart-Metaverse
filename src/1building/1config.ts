@@ -8,7 +8,7 @@ export default {
             position: new Vector3(0, 5.8883, 6.9747)
         },
         top: {
-            name: "BRAND\nNAME",
+            name: "Meta-Commerce\nFlipkart",
             fontSize: 10,
             color: new Color3(0.1, 0.1, 0.1),
             position: new Vector3(0, 10.8, 7.15)
