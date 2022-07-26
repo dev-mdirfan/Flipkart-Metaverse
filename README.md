@@ -1,4 +1,4 @@
-# Store Template
+# Store Template                                    ![visitors](https://visitor-badge.laobi.icu/badge?page_id=dev-mdirfan.Flipkart-Grid-4.0-project)
  
  A basic generic virtual store for wearables and other tokens
 
